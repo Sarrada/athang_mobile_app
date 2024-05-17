@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todo/screens/Sales.dart'; 
+import 'package:todo/screens/travel/Home.travel.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,8 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      //home: Home(),
-       home: const Sales(),
+      home: HomeTravel() ,
     );
   }
 }

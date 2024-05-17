@@ -4,6 +4,7 @@ import 'package:todo/widgets/sales_landing/SearchBarSale.sale.dart';
 import 'package:todo/widgets/sales_landing/DescriptionBar.sale.dart';
 import 'package:todo/widgets/sales_landing/ProductsBar.sale.dart';
 import 'package:todo/widgets/sales_landing/TodayBar.sale.dart';
+import 'package:todo/widgets/sales_landing/ProductsBarBig.sale.dart';
 
 
 
@@ -22,7 +23,8 @@ class Sales extends StatelessWidget {
               SearchBarSale(),
               DescriptionBar(),
               ProductsBar(),
-              TodayBar()
+              TodayBar(),
+              ProductsBarBig()
               
               
             
